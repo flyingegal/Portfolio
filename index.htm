@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquarries.css">
+    
+</head>
+
+<body>
+
+<nav id="desktop-nav">
+        <div class="logo">Pankaj</div>
+        <div> 
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul> 
+    </div>
+</nav>
+    <nav id="hamberger-nav">
+      <div class="logo">Pankaj </div>
+      <div class="hamberger-menu">
+      <div class="hamberger-icon" onclick="togglemenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+<div class="menu-links">
+    <li><a href="#about" onclick="togglemenu()">About</a></li>
+    <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+    <li><a href="#project" onclick="togglemenu()">Project</a></li>
+    <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+</div>
+      </div>
+    
+
+</nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="assets/profile-pic.png" alt="Pankaj_profile_picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">hello im</p>
+            <h1 class="title">Pankaj</h1>
+            <p class="section__text__p2">Frontend doveloper</p>
+        
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">My Resume</button>
+
+            <button class="btn btn-color-1" onclick="location.href='./index.htm#contact'">Contact me</button>
+        <div id="social-container">
+            <img src="assets/linkedin.png" alt="my linkdin account" class="icon linkdin-icon" onclick="location.href='https://www.linkedin.com/in/pankaj-jangid-b50604258/'">
+            <img src="assets/github.png" alt="git hub account" class="icon github-icon" onclick="location.href='https://github.com/flyingegal'">
+
+        </div> 
+    </div> 
+        </div>
+        
+</section>
+<section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About me</h1>
+    <div class="social-container about-social-container">
+        
+        <div class="about-detail-container">
+            <div class="about-container">
+                <div class="detail-container">
+                    <img src="assets/experience.png" alt="experience icone" class="icon">
+                    <h3>Experience</h3>
+                    <p>2+ year <br> Frontend development</p>
+                </div>
+                
+                <div class="detail-container">
+                    <img src="assets/education.png" alt="education logo" class="icon">
+                    <h3>Education</h3>
+                    <p>BCA <br>Bacheler of computer application </p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p>
+                    2nd year B.C.A Computer Science student at Indira Gandhi University, Meerpur,rewari(HR) with an excellent academic record and a keen interest and practical exposure in the field of web development and Intermediate knowledge of Frontend web development 
+                </p>
+            </div>
+        </div>
+    </div>
+    <img src="assets/arrow.png" alt="arrowicone" class="icon arrow" onclick="location.href='./index.htm#experience'">
+</section>
+<section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-detail-container">
+        <div class="about-container">
+            <div class="detail-container">
+                <h2 class="experience-sub-title">Frontend Development<h2>
+                    <div class="artical-container">
+                        <article>
+                            <img src="assets/checkmark.png" alt="checkmarkicon" class="icon">
+                            <div>
+                                <h3>HTML5</h3>
+                                <p>Experience</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="checkmarkicon" class="icon">
+                            <div>
+                                <h3>SAAS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="checkmarkicon" class="icon">
+                            <div>
+                                <h3>JAVA SCRIPT </h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="checkmarkicon" class="icon">
+                            <div>
+                                <h3>TYPE SCRIPT BASIC</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="checkmarkicon" class="icon">
+                            <div>
+                                <h3>MATERIAL UI</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="checkmarkicon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experience</p>
+                            </div>
+                        </article>
+
+                    </div>
+            </div>
+            <div class="detail-container">
+                <h2 class="experience-sub-title">Backend Development<h2>
+                    <div class="artical-container">
+                        <article>
+                            <img src="assets/checkmark.png" alt="checkmarkicon" class="icon">
+                            <div>
+                                <h3>PostgreSQL</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="checkmarkicon" class="icon">
+                            <div>
+                                <h3>Node JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        
+                        <article>
+                            <img src="assets/checkmark.png" alt="checkmarkicon" class="icon">
+                            <div>
+                                <h3>Express JS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="assets/checkmark.png" alt="checkmarkicon" class="icon">
+                            <div>
+                                <h3>GIT</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        
+                        
+                    </div>
+            </div>
+        </div>
+    </div>
+    <img src="assets/arrow.png" alt="arrowicone" class="icon arrow" onclick="location.href='./index.htm#project'">
+
+</section>
+<section id="project" >
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Project</h1>
+    <div class="experience-detail-container">
+        <div class="about-container">
+        <div class="detail-container color-container">
+            <div class="artical-container">
+                <img src="assets/project-1.png" alt="project-1" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Project one</h2>
+            <div class="button-container">
+                <button class="btn btn-color2 project-btn" onclick="location.href='https://github.com/'">
+                    Github</button>
+                <button class="btn btn-color2 project-btn" onclick="location.href='https://github.com/'">
+                    Live Demo</button>
+            </div>
+        </div>
+        <div class="detail-container color-container">
+            <div class="artical-container">
+                <img src="assets/project-2.png" alt="project-2" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Project two</h2>
+            <div class="button-container">
+                <button class="btn btn-color2 project-btn" onclick="location.href='https://github.com/'">
+                    Github</button>
+                <button class="btn btn-color2 project-btn" onclick="location.href='https://github.com/'">
+                    Live Demo</button>
+            </div>
+        </div>
+        <div class="detail-container color-container">
+            <div class="artical-container">
+                <img src="assets/project-3.png" alt="project-3" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Project three</h2>
+            <div class="button-container">
+                <button class="btn btn-color2 project-btn" onclick="location.href='https://github.com/'">
+                    Github</button>
+                <button class="btn btn-color2 project-btn" onclick="location.href='https://github.com/'">
+                    Live Demo</button>
+            </div>
+        </div></div>
+    </div>
+    <img src="assets/arrow.png" alt="arrowicone" class="icon arrow" onclick="location.href='./index.htm#contact'">
+
+</section>
+<section id="contact">
+    <p class="section__text__p1">Get In Touch</p>
+    <h1 class="title">Contect me</h1>
+    
+<div class="contact-info-upper-container">
+    <div class="contact-info-container">
+        <img src="assets/email.png" alt="emailicon" class="icon contact-icon email-icon"><p > <a href="mailto:pankajjangra1980@gmail.com">pankajjangra1980@gmail.com</a></p>
+        <img src="assets/linkedin.png" alt="linkdin" class="icon contact-icon"><p > <a href="https://www.linkedin.com/in/pankaj-jangid-b50604258/">linkdin</a></p>
+    </div>
+</div>
+
+</section>
+<footer>
+    <nav >
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>  
+        </div>
+        <p>copyright &#169; 2024 Pankaj. All Right Reserved</p>
+    </nav>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
